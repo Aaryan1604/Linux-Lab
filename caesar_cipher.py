@@ -1,7 +1,7 @@
 import sys
 
 def encryption(text,shift):
-    #shifiting characters
+    #shifting characters
     filter = []
     for  char in text:
         if  char.isalpha():
